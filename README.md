@@ -14,6 +14,6 @@ Create one R script called run_analysis.R that does the following:
 
 1. Download the data source zip file and extract it into your working directory. You'll have a ```UCI HAR Dataset``` folder containing two subfolders "data" and "test" (for the purpose of this assignment we'll ignore the sub-subfolder inside each of the above called "Inertial Signals").
 2. Put ```run_analysis.R``` in your working directory.
-3. Run ```source("run_analysis.R")```. It will generate a new file ```tidy_data_set.txt``` in your working directory. Done!
+3. Run ```source("run_analysis.R")```. It will generate a new file ```tidydata.txt``` in your working directory. Done!
 
 Please refer to the CodeBook for the details of the code and description of data.

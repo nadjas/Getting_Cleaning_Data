@@ -5,7 +5,7 @@ dataActivityTrain <- read.table("./UCI HAR Dataset/train/Y_train.txt",header = F
 dataSubjectTrain <- read.table("./UCI HAR Dataset/train/subject_train.txt", header = FALSE)
 dataSubjectTest  <- read.table("./UCI HAR Dataset/test/subject_test.txt",header = FALSE)
 dataFeaturesTest  <- read.table("./UCI HAR Dataset/test/X_test.txt",header = FALSE)
-dataFeaturesTrain <- read.table("./UCI HAR Dataset/train/X_train.txt"),header = FALSE)
+dataFeaturesTrain <- read.table("./UCI HAR Dataset/train/X_train.txt",header = FALSE)
 #merge training and test datasets by binding rows
 dataSubject <- rbind(dataSubjectTrain, dataSubjectTest)
 dataActivity<- rbind(dataActivityTrain, dataActivityTest)

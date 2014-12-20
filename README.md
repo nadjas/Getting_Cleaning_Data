@@ -18,7 +18,7 @@ Create one R script called run_analysis.R that does the following:
 
 ## The code and what it does
 
-part 1: Merge the training and the test sets to create one data set
+1. Merge the training and the test sets to create one data set
 - read data into variables
 dataActivityTest  <- read.table("./UCI HAR Dataset/test/Y_test.txt", header = FALSE)
 dataActivityTrain <- read.table("./UCI HAR Dataset/train/Y_train.txt",header = FALSE)
@@ -51,7 +51,7 @@ part 3: Use descriptive activity names to name the activities in the data set
 activityLabels <- read.table("./UCI HAR Dataset/activity_labels.txt",header = FALSE)
 - factorize variable "activity" in "Data"
 
-part 4: Appropriately label the data set with descriptive variable names 
+part 4: Appropriately label the data set with descriptive variable names
 names(Data)<-gsub("^t", "time", names(Data))
 names(Data)<-gsub("^f", "frequency", names(Data))
 names(Data)<-gsub("Acc", "Accelerometer", names(Data))
